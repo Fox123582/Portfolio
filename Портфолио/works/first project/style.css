@@ -1,0 +1,334 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header {
+    width: 100%;
+    height: 915px;
+}
+.headnav {
+    height: 85px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+}
+.menu a {
+    text-decoration: none;
+    opacity: 0.67;
+    color: #666666;
+    font-family: "Open Sans - Semibold";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.navlog {
+    display: flex;
+    justify-content: center;
+}
+.login {
+    text-decoration: none;
+    background-color: #add136;
+    opacity: 0.81;
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: -100px;
+    border: 5px solid #add136;
+    border-radius: 30%;
+    padding:10px 30px;
+}
+.main {
+    width:100%;
+    height: 570px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.58)) , url(./img/backfon.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text {
+    color: #f7f8f7bd;
+    font-family: "Open Sans - Semibold";
+    font-size: 30px;
+    font-family: "Open Sans Semibold";
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+h1 {
+    color: #ffffff;
+    margin-top: -50px;
+    padding-bottom: 50px;
+}
+span {
+    font-size: 45px;
+    font-weight: 300;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    border: 5px solid #99c50a;
+    background-color: #99c50a;
+    border-radius: 13%;
+    padding:20px 30px;
+}
+.footer {
+    height: 260px;
+    width: 100%;
+}
+.arrow {
+    text-align: center;
+    margin-top: 100px;
+}
+h2 {
+    color: #515151;
+    font-family: "Open Sans - Semibold";
+    font-size: 31px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 55px;
+    height: 100px;
+    padding-bottom: 100px;
+}
+main {
+    margin-top: 170px;
+}
+.container {
+    display: flex;
+    height: 310px;
+}
+.right {
+    display: flex;
+    width: 50%;
+    background-color: #e2f8ff;
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content:space-around;
+    align-content: space-around;
+    padding-left: 40px;
+}
+.divan {
+    width: 133px;
+    height: 112px;
+    margin-top: 45px;
+}
+.h2 {
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 400;
+}
+.block {
+    width: 50%;
+} 
+.parag1 {
+    width: 256px;
+    height: 73px;
+    color: #515151;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 400;
+}
+.button2 {
+    width: 187px;
+    background-color: #26a6d1;
+    text-align: center;
+    border: 14px solid #26a6d1;
+    border-radius: 10%;
+    text-decoration:none;
+    color:#ffffff;
+    padding: 0 10px;
+}
+.left{
+    width: 50%;
+    background-color: #f5f9eb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    align-content: space-around;
+
+}
+.wallet{
+    width: 101px;
+    height: 92px;
+}
+.block2{
+    text-align: start;
+}
+.h3{
+    width: 135px;
+    height: 23px;
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 400;
+
+}
+.parag2{
+    width: 256px;
+    height: 73px;
+    color: #515151;
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 400;
+}
+.button3{
+    width: 144px;
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-weight: 400;
+    background-color: #add136;
+    border: 14px solid #add136;
+    border-radius: 10%;
+    text-decoration:none;
+    color:#ffffff;
+    padding: 0 10px;
+}
+.fon2{
+    width: 100%;
+    height: 850px;
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.3)) , url(./img/fon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    width: 1000px;
+    height: 760px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+h4{
+    color: #9ec02d;
+    font-family: "Open Sans - Semibold";
+    font-size: 52px;
+    font-weight: 500;
+    width: 100%;
+}
+.parag3{
+    color: #949494;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.div2  {
+    text-align: center;
+    display: flex;
+    margin-bottom: 30px;
+}
+.right2{
+    width: 500px;
+    height: 300px;
+    background-image: url(./img/oblako.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 397px 150px ;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+h5{
+    height: 16px;
+    color: #9ec02d;
+    font-family: "Open Sans - Semibold";
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.parag4{
+    height: 59px;
+    width: 397px;
+    color: #848484;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    margin-left:10px ;
+}
+.david{
+    position: absolute;
+    bottom: 0;
+    left: 99px;
+}
+.name{
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+    color: #494949;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 400;
+}
+.left2{
+    width: 50%;
+    background-image: url(./img/oblako.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 397px 150px ;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+h6{
+    height: 16px;
+    color: #9ec02d;
+    font-family: "Open Sans - Semibold";
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.parag5{
+    height: 59px;
+    width: 397px;
+    color: #848484;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.secondperson{
+    position: absolute;
+    bottom: 0;
+    left: 99px;
+}
+.f1{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 5px solid #dad9d954;
+}
+.copy{
+    width: 99%;
+    height: 40px;
+    color: #848484;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+} 
